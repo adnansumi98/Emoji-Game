@@ -1,1 +1,28 @@
-/* Write your code here. */
+.navbar-container {
+  padding: 10px;
+  background-color: #9796f0;
+  opacity: 80%;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px
+}
+
+.logo-container,
+.score-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-title,
+.score-card,
+.topscore-card {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+}

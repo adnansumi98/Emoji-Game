@@ -1,1 +1,16 @@
-/* Write your code here. */
+.emoji-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #9796f0;
+  border-radius: 5px;
+  border: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.emoji-image {
+  width: 5vw;
+  padding: 10px;
+}
